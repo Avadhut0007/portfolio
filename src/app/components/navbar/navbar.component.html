@@ -1,0 +1,17 @@
+<nav class="navbar">
+    <div class="navbar-brand">
+      <a routerLink="/">Portfolio</a>
+    </div>
+    <ul class="navbar-links" [class.active]="menuActive">
+      <li><a routerLink="/flights" routerLinkActive="active">Home</a></li>
+      <li><a routerLink="/flight-search" routerLinkActive="active">About</a></li>
+      <li><a routerLink="/bookings" routerLinkActive="active">Work</a></li>
+      <li><a routerLink="/my-account" routerLinkActive="active">Contact</a></li>
+      <li><a routerLink="/login" routerLinkActive="active">Blog</a></li>
+    </ul>
+    <div class="navbar-toggle" (click)="toggleMenu()">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </nav>
