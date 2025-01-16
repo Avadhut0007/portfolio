@@ -251,15 +251,6 @@ h1:hover::before{
     justify-content: center;
     align-items: center;
     padding-right: 4px;
-    transition: transform 0.2s ease; 
-}
-
-.skills p:hover{
-  /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
-  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-  color: white;
-  cursor: pointer;
-  transform: scale(1.05);
 }
 
 .star{
